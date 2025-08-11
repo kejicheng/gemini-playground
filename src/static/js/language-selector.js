@@ -1,6 +1,6 @@
 const languages = [
-    { name: 'English (US)', code: 'en-US' },
     { name: 'Mandarin Chinese (China)', code: 'cmn-CN' },
+    { name: 'English (US)', code: 'en-US' },
     { name: 'English (Australia)', code: 'en-AU' },
     { name: 'English (UK)', code: 'en-GB' },
     { name: 'English (India)', code: 'en-IN' },
@@ -36,3 +36,4 @@ function getLanguage(languageCode) {
 }
 
 export { languages, getLanguage };
+
